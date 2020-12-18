@@ -1,0 +1,164 @@
+@media (max-width : 1199px) {
+
+	#slider img {
+		height: 600px !important
+	}
+
+	.float-img img {
+		width: 80%;
+		height: auto;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width : 991px) {
+	#main-explore .card {
+		margin-left: 20px;
+	}
+
+	.center {
+		text-align: center;
+	}
+
+	#slider img {
+		height: 500px !important
+	}
+
+	#slider p {
+		font-size: 16px;
+	}
+
+	#why_us .card {
+		margin: auto;
+	}
+}
+
+@media (max-width : 767px) {
+
+	#main-explore {
+		text-align: center;
+	}
+
+	#header li {
+		padding-left: 0
+	}
+
+	ul li a::after {
+		display: none;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	#slider img {
+		display: none;
+	}
+
+	#main-explore .card {
+		margin-left: 0
+	}
+
+	#main-explore p {
+		text-align: left
+	}
+
+	#work .lead {
+		text-align: left;
+		margin: 0;
+		padding: 0
+	}
+
+	footer {
+		text-align: center
+	}
+
+	footer .col-md-6 {
+		margin-top: 30px
+	}
+
+	footer .contact h5 {
+		width: 100%;
+		float: ;
+	}
+
+	footer .submit {
+		width: 70%;
+		margin: auto;
+	}
+
+	.float-text {
+		width: 100%;
+		left: 0
+	}
+
+	.float-text p {
+		width: 70%;
+		padding-top: 20px;
+		margin: auto
+	}
+}
+
+
+@media (max-width : 575px) {
+	#main-explore .card {
+		margin-top: 20px;
+	}
+
+	h1 {
+		font-size: 30px
+	}
+
+	h2 {
+		font-size: 25px
+	}
+
+	blockquote {
+		font-size: 26px;
+		text-align: center;
+		margin: 0;
+	}
+
+	.nevo-Slider .lead {
+		font-size: 14px;
+	}
+
+	.nivo-controlNav {
+		display: none;
+	}
+
+	.float-img img {
+		display: none
+	}
+
+	#work .col-sm-6 {
+		width: 200px;
+		float: left;
+		margin: auto
+	}
+
+	footer .contact h5 {
+		width: 100%;
+		float: none;
+	}
+
+	footer .submit {
+		width: 50%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.hide {
+		display: none;
+	}
+
+	.center {
+		margin-bottom: 20px
+	}
+}
+
+@media (max-width : 450px) {
+	.nivo-directionNav {
+		display: none;
+	}
+}
